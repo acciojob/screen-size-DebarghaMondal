@@ -3,7 +3,7 @@ function displayWindowSize(){
 	let w =window.innerWidth;
 	let h = window.innerHeight;
 	
-	document.getElementById('sizeInfo').innerHTML = "Width: " + w + ", Height: " + h;
+let size=document.getElementById('sizeInfo').innerHTML =("<h1>" + "Width: " + w + ", Height: " + h + "</h1>");
 }
 window.addEventListener("resize", displayWindowSize);
 displayWindowSize();
